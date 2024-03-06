@@ -17,6 +17,19 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/login', function () {
     return view('login');
+
+
+Route::get('/profile', function () {
+    return view('profile');
+});
+
+Route::get('/Home', function () {
+    return view('Home');
+  
+Route::get('/signin', function () {
+    return view('signin');
+
 });
