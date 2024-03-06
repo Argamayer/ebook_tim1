@@ -19,4 +19,8 @@ Route::get('/', function () {
 
 Route::get('/Home', function () {
     return view('Home');
+  
+Route::get('/signin', function () {
+    return view('signin');
+
 });
